@@ -1,1 +1,0 @@
-# davidmarinas.github.io
