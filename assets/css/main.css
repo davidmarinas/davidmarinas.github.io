@@ -4687,3 +4687,57 @@ input, select, textarea {
 		}
 
 	}
+
+
+	.carousel {
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		margin: 20px auto;
+	}
+	
+	.carousel-inner {
+		display: flex;
+		transition: transform 0.5s ease;
+	}
+	
+	.carousel-item {
+		margin: 2.5rem 0;
+		width: 100%;
+		display: none;
+	}
+	
+	.carousel-item.active {
+		margin: 2.5rem 0;
+		width: 100%;
+		display: block;
+	}
+	
+	.carousel img {
+		width: 100%;
+		display: block;
+	}
+	
+	buttonC {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: rgba(0, 0, 0, 0.5);
+		border: none;
+		color: white;
+		padding: 10% 9px;
+		cursor: pointer;
+		z-index: 1;
+	}
+	
+	buttonC.prev {
+		left: 10px;
+	}
+	
+	buttonC.next {
+		right: 10px;
+	}
+	
+	buttonC:focus {
+		outline: none;
+	}
